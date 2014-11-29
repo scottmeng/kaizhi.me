@@ -1,8 +1,49 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Cardo", Helvetica, Arial, sans-serif;
+  color: #4D4F53;
 }
 
 a {
   color: #00B7FF;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+p {
+  font-size: 18px;
+  color: #6a6b70;
+}
+.container {
+  width: 640px;
+  margin: auto;
+}
+
+.title {
+  font-weight: initial;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #4D4F53;
+}
+
+.nav {
+  justify-content: flex-end;
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  padding-left: 1em;
+}
+.main {
+  margin-top: 60px;
 }
