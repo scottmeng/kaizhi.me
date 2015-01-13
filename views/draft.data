@@ -1,0 +1,13 @@
+====== this is where my draft shall stay ======
+
+13 Jan 2014
+
+migrating Transify
+
+this was kinda new to me as I was never familiar with deployment in the first place. 
+
+gotta understand the importance of keeping Package.json, going through the pain of installing Node on Ubuntu... and successfully did a data migration for MongoDB.
+
+discovered something about Mongorestore, which basically runs through a series of insert operations (need to verify). so my old user data was not restored (conflict with the newly created user i guess), causing some panic until i figured it out. 
+
+that was pretty fun over all but it would be nicer if the whole process is smoother (perhaps next time?)
