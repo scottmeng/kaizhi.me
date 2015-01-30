@@ -10,9 +10,18 @@ a {
 
 header {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
   flex-direction: row;
+  -webkit-flex-direction: row;
+
   justify-content: space-between;
+  -webkit-justify-content: space-between;
+
   align-items: baseline;
+  -webkit-align-items: baseline;
 }
 
 p {
@@ -37,13 +46,25 @@ p {
 
 .nav {
   justify-content: flex-end;
+  -webkit-justify-content: flex-end;
   list-style: none;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
 }
 
-.nav li {
+.nav li a{
   padding-left: 1em;
+  color: #ADAFB3;
+  text-decoration: none;
 }
+
+.nav li a.selected {
+  color: #4D4F53;
+}
+
 .main {
   margin-top: 60px;
 }
