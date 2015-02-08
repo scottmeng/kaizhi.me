@@ -10,22 +10,24 @@ router.get('/', function(req, res) {
 });
 
 router.get('/thoughts', function(req, res) {
+	console.log(posts);
 	res.render('thoughts-list', {
-		page: 'thoughts'
+		page: 'thoughts',
+		posts: posts
 	});
 });
 
 router.get('/thoughts/:slug', function(req, res) {
 	var slug = req.params.slug;
+	console.log(slug);
 
 	var targetPost = posts.some(function(post) {
 		return !!(post.slug === slug);
 	});
+	console.log(targetPost);
 
 	if (targetPost) {
-		res.render('thoughts-list', {
-			page: 'thoughts'
-		});
+		// todo
 	} else {
 		res.render('error', {
 			page: 'about'

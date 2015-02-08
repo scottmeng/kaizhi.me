@@ -4,4 +4,11 @@
   </h2>
 
   <p>Under construction. Please come back in a short while :)</p>
+  <ul>
+  	<% for (var i = 0; i < posts.length; i++) {%>
+  		<li>
+  			<a href='thoughts/<%= posts[i].slug%>'><%= posts[i].name %></a>
+  		</li>
+  	<% } %>
+  </ul>
 </div>
