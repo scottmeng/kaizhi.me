@@ -11,3 +11,17 @@ gotta understand the importance of keeping Package.json, going through the pain 
 discovered something about Mongorestore, which basically runs through a series of insert operations (need to verify). so my old user data was not restored (conflict with the newly created user i guess), causing some panic until i figured it out. 
 
 that was pretty fun over all but it would be nicer if the whole process is smoother (perhaps next time?)
+
+
+====== the second on regarding docker =====
+
+26 Jan 2014
+
+Attended a tech talk in Google Singapore. Not really intending to build a cluster for any application in the fore-seeable future but will seriously consider using docker for deploying future web apps (big or small). Deployment has been such a pain in the ass for me. (I tried many times to correctly configure my websites which is the one you are reading right now)
+
+
+===== thoughts on airplay mechanism ======
+
+31 Jan 2014
+
+Have recently tried to make use of my spare Windows laptop and 21-inch monitor. One idea was to mimic an AirPlay server so the combo becomes something equivalent to an Apple TV. Was using AirServer for Windows and testing on both iPhone and Macbook. Mirroring kinda sucks as I experienced constant frame drop and lag. Was not able to get Beamer to work (but it worked really well for my Xiaomi TV box which has AirPlay capability as well) for video playback (not sure why). Was wondering about why video playback was an overall much better experience than mirroring and figured out the reason.
