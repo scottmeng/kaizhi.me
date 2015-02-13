@@ -6,6 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var expressLayouts = require('express-ejs-layouts');
 var fs = require('fs');
+var moment = require('moment');
+var ejs = require('ejs');
 
 var routes = require('./routes/index');
 
@@ -15,6 +17,10 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.set('view options');
+
+ejs.filters.fromNow = function(date){
+  return moment(date).fromNow()
+};
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));

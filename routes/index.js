@@ -10,7 +10,6 @@ router.get('/', function(req, res) {
 });
 
 router.get('/thoughts', function(req, res) {
-	console.log(posts);
 	res.render('thoughts-list', {
 		page: 'thoughts',
 		posts: posts

@@ -1,7 +1,9 @@
 [{
 	"name" : "migrating MEAN stack web app",
-	"slug" : "migrating_mean_stack_web_app"
+	"slug" : "migrating_mean_stack_web_app",
+	"date" : 1421107200000
  }, {
  	"name" : "about to try out docker",
- 	"slug" : "about_to_try_out_docker"
+ 	"slug" : "about_to_try_out_docker",
+ 	"date" : 1422230400000
  }]
