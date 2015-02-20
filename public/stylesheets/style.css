@@ -65,6 +65,7 @@ p {
   padding-left: 1em;
   color: #ADAFB3;
   text-decoration: none;
+  font-style: italic;
 }
 
 .nav li a.selected {
