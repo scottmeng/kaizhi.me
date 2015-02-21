@@ -2,9 +2,9 @@
   <ul class="thought-list">
   	<% for (var i = 0; i < posts.length; i++) {%>
   		<li>
-  			<a href='thoughts/<%= posts[i].slug%>' class="thought-title" style="display: flex; flex-direction: row">
-          <p style="flex-grow: 1"><%= posts[i].name %></p>
-          <p style="display: inline-block"><%=: posts[i].date | fromNow %></p>
+  			<a href='<%= posts[i].slug%>' class="thought-link">
+          <p class="thought-title"><%= posts[i].name %></p>
+          <p class="thought-date"><%=: posts[i].date | fromNow %></p>
         </a>
   		</li>
   	<% } %>

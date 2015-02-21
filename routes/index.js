@@ -16,17 +16,17 @@ router.get('/thoughts', function(req, res) {
 	});
 });
 
-router.get('/thoughts/:slug', function(req, res) {
+router.get('/:slug', function(req, res) {
 	var slug = req.params.slug;
-	console.log(slug);
 
 	var targetPost = posts.some(function(post) {
 		return !!(post.slug === slug);
 	});
-	console.log(targetPost);
 
 	if (targetPost) {
-		// todo
+		res.render(slug, {
+			page: 'thoughts'
+		});
 	} else {
 		res.render('error', {
 			page: 'about'
