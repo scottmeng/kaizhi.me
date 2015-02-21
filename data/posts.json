@@ -1,9 +1,21 @@
 [{
-	"name" : "migrating MEAN stack web app",
+	"name" : "Migrating MEAN stack web app",
 	"slug" : "migrating_mean_stack_web_app",
 	"date" : 1421107200000
  }, {
- 	"name" : "about to try out docker",
+ 	"name" : "About to try out docker",
  	"slug" : "about_to_try_out_docker",
  	"date" : 1422230400000
+ }, {
+ 	"name" : "Some thoughts on AirPlay mechanism",
+ 	"slug" : "some_thoughts_on_airplay_mechanism",
+ 	"date" : 1422662400000
+ }, {
+ 	"name" : "DNA, cancer and programming",
+ 	"slug" : "dna_cancer_and_programming",
+ 	"date" : 1424217600000
+ }, {
+ 	"name" : "First time with Adobe Typekit",
+ 	"slug" : "first_time_with_adobe_typekit",
+ 	"date" : 1424476800000
  }]
