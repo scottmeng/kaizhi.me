@@ -1,0 +1,15 @@
+<div class="main">
+	<h2>Some thoughts on AirPlay mechanism</h2>
+	<p>
+		Have recently tried to make use of my spare Windows laptop and 21-inch monitor. The idea was to mimic an AirPlay server so the combo becomes something equivalent to an Apple TV.
+	</p>
+	<p>
+		Was using AirServer for Windows and testing on both iPhone and Macbook. Mirroring kinda sucks as I experienced constant frame drops and lag. Was not able to get Beamer to work (but it worked really well for my Xiaomi TV box which has AirPlay capability as well) for video playback (not sure why).
+	</p>
+	<p>
+		I was wondering why video playback had an overall much better experience than mirroring. The reason (based on my own thinking) was pretty simple. 
+	</p>
+	<p>
+		Screen mirroring requires devices to generate the content to display at real time. This means that devices need to supply full HD content at at least 30 frames per second using AirPlay protocol through the network. Every single frame can only be computed at the time of display, thus resulting in high pressure on AirPlay network. However, for video playback, devices can decode and generate display content before-hand and transfer in advance. Even in the case of package loss and traffic congestion, the smoothness of AirPlay video playback can be hardly affected. 
+	</p>
+</div>
