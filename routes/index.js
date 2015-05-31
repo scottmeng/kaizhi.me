@@ -20,7 +20,7 @@ router.get('/:slug', function(req, res) {
 	var slug = req.params.slug;
 
 	var targetPost = posts.some(function(post) {
-		return !!(post.slug === slug);
+		return post.slug !== slug;
 	});
 
 	if (targetPost) {
