@@ -1,0 +1,12 @@
+<div class="main">
+  <ul class="thought-list">
+  	<% for (var i = 0; i < posts.length; i++) {%>
+  		<li>
+  			<a href='<%= posts[i].slug%>' class="thought-link">
+          <p class="thought-title"><%= posts[i].name %></p>
+          <p class="thought-date"><%=: posts[i].date | fromNow %></p>
+        </a>
+  		</li>
+  	<% } %>
+  </ul>
+</div>
